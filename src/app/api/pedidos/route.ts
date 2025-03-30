@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     return NextResponse.json(
       {
-        message: "Error al guardar",
+        message: "Error al guardar",error,
       },
       {
         status: 500,
